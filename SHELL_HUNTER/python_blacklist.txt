@@ -1,0 +1,82 @@
+# Blacklisted Function Names
+
+# Evaluation and Execution Functions
+eval
+exec
+execfile
+compile
+
+# Input Functions
+input
+raw_input
+
+# File Operations
+file
+open
+
+# OS and System Functions
+os.system
+os.popen
+os.spawn
+os.execl
+os.execle
+os.execlp
+os.execlpe
+os.execv
+os.execve
+os.execvp
+os.execvpe
+os.popen2
+os.popen3
+os.popen4
+os.fdopen
+os.tmpfile
+os.unlink
+os.remove
+os.rmdir
+os.removedirs
+os.rename
+os.renames
+os.utime
+os.chmod
+os.chown
+os.makedirs
+os.path.walk
+os.walk
+os.path.exists
+os.path.isfile
+os.path.isdir
+os.access
+os.link
+os.symlink
+os.readlink
+os.getcwd
+os.chdir
+os.chroot
+os.path.expanduser
+os.path.expandvars
+os.path.abspath
+os.path.normpath
+os.path.join
+os.path.split
+os.path.splitext
+os.path.commonprefix
+os.path.basename
+os.path.dirname
+os.fspath
+
+# Subprocess Module Functions
+subprocess.call
+subprocess.check_call
+subprocess.check_output
+subprocess.Popen
+
+# shutil Module Functions
+shutil.copy
+shutil.copy2
+shutil.copyfile
+shutil.copytree
+shutil.move
+shutil.rmtree
+
+# Add more blacklisted function names here if needed.

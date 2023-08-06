@@ -1,0 +1,73 @@
+# List of Blacklisted PHP Functions
+
+# Evaluation and Execution Functions
+eval
+exec
+system
+shell_exec
+passthru
+popen
+proc_open
+pcntl_exec
+
+# File System Functions
+fopen
+fclose
+readfile
+file_get_contents
+file_put_contents
+file
+file_exists
+fread
+fwrite
+unlink
+rmdir
+rename
+copy
+move_uploaded_file
+tempnam
+
+# Directory Functions
+opendir
+readdir
+scandir
+glob
+
+# OS Functions
+popen
+proc_open
+posix_kill
+posix_mkfifo
+posix_getpwuid
+posix_ttyname
+
+# Database Functions
+mysqli_multi_query
+mysqli_real_query
+mysqli::multi_query
+mysqli::real_query
+
+# Network Functions
+fsockopen
+pfsockopen
+stream_socket_client
+stream_socket_server
+proc_nice
+proc_terminate
+proc_close
+
+# Reflection Functions
+ReflectionFunctionAbstract::invoke
+ReflectionFunctionAbstract::invokeArgs
+
+# Other Potentially Dangerous Functions
+extract
+parse_str
+putenv
+ini_set
+mail
+header
+proc_nice
+assert
+
+# Add more blacklisted PHP functions here if needed.

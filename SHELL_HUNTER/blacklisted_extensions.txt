@@ -1,0 +1,9 @@
+# Executable File Extensions
+exe
+bat
+cmd
+com
+vbs
+ps1
+msi
+jar
