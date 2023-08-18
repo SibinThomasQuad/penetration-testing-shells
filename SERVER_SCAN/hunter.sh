@@ -167,6 +167,9 @@ identify_write_permission() {
 
 # Main menu
 while true; do
+    echo "===============================================>"
+    echo "FIL3-HUNT3R -)->"
+    echo "===============================================>"
     echo "Select an option:"
     echo "1. Search files with specific contents"
     echo "2. Search files using MD5 checksum"
@@ -188,6 +191,7 @@ while true; do
     echo "18. Identify write permission folders and files"
     echo "19. Identify write permission files"
     echo "20. Quit"
+    echo "===============================================>"
     read -p "Enter your choice: " choice
 
     case "$choice" in
